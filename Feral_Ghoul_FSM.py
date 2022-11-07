@@ -2,7 +2,7 @@
 #   Feral Ghoul FSM
 #
 #   The Traveller game in all forms is owned by Far Future Enterprises.
-#   Copyright 1977 - 2020 Far Future Enterprises. Traveller is a
+#   Copyright 1977 - 2022 Far Future Enterprises. Traveller is a
 #   registered trademark of Far Future Enterprises.
 #
 #####################################################################
@@ -123,7 +123,7 @@ class World:
     def render(self, surface):
         # render the background and all the entities
         surface.blit(self.background, (0, 0))
-        for entity in list(self.entities.values()):
+        for entity in self.entities.values():
             entity.render(surface)
             
     def spot_close_entity(self, name, location, visual_range = 100):
