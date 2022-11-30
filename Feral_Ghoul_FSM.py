@@ -507,14 +507,14 @@ if __name__ == '__main__':
         print()
         print('This program uses:')
         print(release)
-        print('Pygame 2.1.2')
-        print('SDL 2.0.18')
+        print('Pygame 2.1.3.dev8')
+        print('SDL 2.0.22')
         print()
-        if vernum != '3.11':
+        if vernum != '3.12':
             print('WARNING! Different version of roll() installed:', vernum)
-        if pygame.version.vernum != (2, 1, 2):
+        if pygame.version.vernum != (2, 1, 3):
             print('WARNING! Different version of Pygame installed:', pygame.version.ver)
-        if pygame.get_sdl_version() != (2, 0, 18):
+        if pygame.get_sdl_version() != (2, 0, 22):
             print('WARNING! Different version of SDL installed:', pygame.get_sdl_version())
         print('----------------------------')
         print(program.author)
