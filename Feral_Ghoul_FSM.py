@@ -2,7 +2,7 @@
 #   Feral Ghoul FSM
 #
 #   The Traveller game in all forms is owned by Far Future Enterprises.
-#   Copyright 1977 - 2022 Far Future Enterprises. Traveller is a
+#   Copyright 1977 - 2023 Far Future Enterprises. Traveller is a
 #   registered trademark of Far Future Enterprises.
 #
 #####################################################################
@@ -490,7 +490,7 @@ def main():
 
 if __name__ == '__main__':
     trange = time.localtime()
-    if trange[0] > 2022 or trange[1] > 12:
+    if trange[0] > 2023 or trange[1] > 4:
         print()
         print(program.app, 'EXPIRED.')
         print()
