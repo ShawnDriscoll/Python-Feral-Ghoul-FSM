@@ -490,7 +490,7 @@ def main():
 
 if __name__ == '__main__':
     trange = time.localtime()
-    if trange[0] > 2023 or trange[1] > 4:
+    if trange[0] > 2024 or trange[1] > 12:
         print()
         print(program.app, 'EXPIRED.')
         print()
