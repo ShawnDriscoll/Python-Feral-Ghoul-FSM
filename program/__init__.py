@@ -1,8 +1,7 @@
 
 """
-This program was written using Notepad++.
-It does test fine in Windows 10.
-This code is no longer Beta.
+This program was written for Python 3.11 using Notepad++.
+It does test fine in Windows 10 and 11.
 """
 
 author = 'Shawn Driscoll'

@@ -2,7 +2,7 @@
 #   Feral Ghoul FSM
 #
 #   The Traveller game in all forms is owned by Far Future Enterprises.
-#   Copyright 1977 - 2023 Far Future Enterprises. Traveller is a
+#   Copyright 1977 - 2024 Far Future Enterprises. Traveller is a
 #   registered trademark of Far Future Enterprises.
 #
 #####################################################################
@@ -507,14 +507,14 @@ if __name__ == '__main__':
         print()
         print('This program uses:')
         print(release)
-        print('Pygame 2.1.3.dev8')
-        print('SDL 2.0.22')
+        print('Pygame 2.4.0')
+        print('SDL 2.26.4')
         print()
         if vernum != '3.12':
             print('WARNING! Different version of roll() installed:', vernum)
-        if pygame.version.vernum != (2, 1, 3):
+        if pygame.version.vernum != (2, 4, 0):
             print('WARNING! Different version of Pygame installed:', pygame.version.ver)
-        if pygame.get_sdl_version() != (2, 0, 22):
+        if pygame.get_sdl_version() != (2, 26, 4):
             print('WARNING! Different version of SDL installed:', pygame.get_sdl_version())
         print('----------------------------')
         print(program.author)
